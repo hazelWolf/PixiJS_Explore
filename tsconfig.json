@@ -1,0 +1,19 @@
+{
+    "files": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/*.ts"
+    ],
+
+    "compilerOptions": {
+        
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "target": "es5",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "lib": ["dom", "es2015.promise", "es5"]
+    },
+
+    "typeRoots": ["node_modules"]
+}
